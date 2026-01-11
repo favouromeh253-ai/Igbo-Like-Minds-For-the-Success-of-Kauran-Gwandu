@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,16 +10,23 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#2
 
 /* HERO BACKGROUND */
 .hero{
+    height: 450px; /* adjust height if needed */
     background:
-        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url("https://github.com/favouromeh253-ai/Igbo-Like-Minds-For-the-Success-of-Kauran-Gwandu/blob/981247ead9e616508980ae1322fa97d4d6351e8d/kauran.jpg ");
-    background-position:center;
-    color:white;
-    padding:90px 20px;
-    text-align:center;
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("https://raw.githubusercontent.com/favouromeh253-ai/Igbo-Like-Minds-For-the-Success-of-Kauran-Gwandu/981247ead9e616508980ae1322fa97d4d6351e8d/kauran.jpg");
+    background-size: cover; /* cover ensures the image fills the div */
+    background-position: top center; /* align so governor’s face is visible */
+    background-repeat: no-repeat;
+    color: white;
+    padding: 90px 20px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
-.hero h1{font-size:30px;margin-bottom:10px;}
+.hero h1{font-size:30px;margin-bottom:15px;}
 .hero p{max-width:850px;margin:auto;font-size:17px;}
 
 /* NAVIGATION */
@@ -88,27 +95,27 @@ footer{background:#222;color:white;text-align:center;padding:18px;font-size:14px
     <div class="grid">
 
         <a href="workers-welfare.html" class="card">
-            <img src="https://raw.githubusercontent.com/favouromeh253-ai/My-website/main/workers.jpg" alt="Workers Welfare">
+            <img src="workers.jpg" alt="Workers Welfare">
             <h3>Improved Workers’ Welfare</h3>
         </a>
 
         <a href="education.html" class="card">
-            <img src="https://raw.githubusercontent.com/favouromeh253-ai/My-website/main/education.jpg" alt="Education Reforms">
+            <img src="education.jpg" alt="Education Reforms">
             <h3>Education Reforms</h3>
         </a>
 
         <a href="infrastructure.html" class="card">
-            <img src="https://raw.githubusercontent.com/favouromeh253-ai/My-website/main/infrastructure.jpg" alt="Infrastructure Development">
+            <img src="infrastructure.jpg" alt="Infrastructure Development">
             <h3>Infrastructure Development</h3>
         </a>
 
         <a href="security.html" class="card">
-            <img src="https://raw.githubusercontent.com/favouromeh253-ai/My-website/main/security.jpg" alt="Security and Stability">
+            <img src="security.jpg" alt="Security and Stability">
             <h3>Security & Stability</h3>
         </a>
 
         <a href="agriculture.html" class="card">
-            <img src="https://raw.githubusercontent.com/favouromeh253-ai/My-website/main/agriculture.jpg" alt="Agriculture & Rural Development">
+            <img src="agriculture.jpg" alt="Agriculture & Rural Development">
             <h3>Agriculture & Rural Development</h3>
         </a>
 
@@ -128,4 +135,5 @@ footer{background:#222;color:white;text-align:center;padding:18px;font-size:14px
 </footer>
 
 </body>
-</html>        
+    </html> 
+
