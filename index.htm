@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+            <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -6,18 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#f2f4f7;
-    color:#222;
-}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;}
 
-/* HERO WITH IMAGE BACKGROUND */
+/* HERO BACKGROUND */
 .hero{
     background:
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url("Kauran.jpg");
+        url("hero-bg.jpg");
     background-size:cover;
     background-position:center;
     color:white;
@@ -25,54 +20,22 @@ body{
     text-align:center;
 }
 
-.hero h1{
-    font-size:30px;
-    margin-bottom:10px;
-}
+.hero h1{font-size:30px;margin-bottom:10px;}
+.hero p{max-width:850px;margin:auto;font-size:17px;}
 
-.hero p{
-    max-width:850px;
-    margin:auto;
-    font-size:17px;
-}
-
-/* NAV */
-nav{
-    background:#083b8a;
-    padding:12px;
-    text-align:center;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 12px;
-    font-weight:bold;
-}
+/* NAVIGATION */
+nav{background:#083b8a;padding:12px;text-align:center;}
+nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold;}
 
 /* SECTIONS */
-section{
-    max-width:1100px;
-    margin:40px auto;
-    padding:0 15px;
-}
-
-section h2{
-    text-align:center;
-    color:#0b5ed7;
-    margin-bottom:15px;
-}
-
-section p{
-    text-align:center;
-    max-width:800px;
-    margin:0 auto 30px;
-}
+section{max-width:1100px;margin:40px auto;padding:0 15px;}
+section h2{text-align:center;color:#0b5ed7;margin-bottom:15px;}
+section p{text-align:center;max-width:800px;margin:0 auto 30px;}
 
 /* ACHIEVEMENTS GRID */
 .grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(230px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
     gap:20px;
 }
 
@@ -86,64 +49,26 @@ section p{
     transition:transform 0.2s;
 }
 
-.card:hover{
-    transform:translateY(-5px);
-}
-
-.card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
-
-.card h3{
-    margin:0;
-    padding:15px;
-    text-align:center;
-    font-size:16px;
-    color:#0b5ed7;
-}
+.card:hover{transform:translateY(-5px);}
+.card img{width:100%;height:220px;object-fit:cover;}
+.card h3{margin:0;padding:15px;text-align:center;font-size:16px;color:#0b5ed7;}
 
 /* CTA */
-.cta{
-    background:#0b5ed7;
-    color:white;
-    text-align:center;
-    padding:45px 20px;
-    margin-top:50px;
-}
-
-.cta a{
-    display:inline-block;
-    margin-top:15px;
-    padding:12px 25px;
-    background:white;
-    color:#0b5ed7;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:6px;
-}
+.cta{background:#0b5ed7;color:white;text-align:center;padding:45px 20px;margin-top:50px;}
+.cta a{display:inline-block;margin-top:15px;padding:12px 25px;background:white;color:#0b5ed7;text-decoration:none;font-weight:bold;border-radius:6px;}
 
 /* FOOTER */
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:18px;
-    font-size:14px;
-}
+footer{background:#222;color:white;text-align:center;padding:18px;font-size:14px;}
 </style>
 </head>
-
 <body>
 
 <!-- HERO -->
 <div class="hero">
     <h1>Igbo Like Minds For the Success of Kauran Gwandu</h1>
     <p>
-        Supporting the vision, leadership, and achievements of
-        His Excellency, Governor Nasir Idris (Kauran Gwandu),
-        for a united, secure, and prosperous Kebbi State.
+        Supporting the leadership and achievements of His Excellency,
+        Governor Nasir Idris, for a united, secure, and prosperous Kebbi State.
     </p>
 </div>
 
@@ -156,39 +81,35 @@ footer{
 <!-- INTRO -->
 <section>
     <h2>Achievements of Governor Nasir Idris</h2>
-    <p>
-        Governor Nasir Idris has demonstrated strong commitment to
-        people-oriented governance, development, and inclusive leadership.
-        Below are key achievements of his administration.
-    </p>
+    <p>Below are key achievements of the administration of Governor Nasir Idris (Kauran Gwandu).</p>
 </section>
 
-<!-- ACHIEVEMENTS -->
+<!-- ACHIEVEMENTS GRID -->
 <section>
     <div class="grid">
 
         <a href="workers-welfare.html" class="card">
-            <img src="nasir-idris.jpg" alt="Governor Nasir Idris">
+            <img src="workers.jpg" alt="Workers Welfare">
             <h3>Improved Workers’ Welfare</h3>
         </a>
 
         <a href="education.html" class="card">
-            <img src="nasir-idris.jpg" alt="Governor Nasir Idris">
+            <img src="education.jpg" alt="Education Reforms">
             <h3>Education Reforms</h3>
         </a>
 
         <a href="infrastructure.html" class="card">
-            <img src="nasir-idris.jpg" alt="Governor Nasir Idris">
+            <img src="infrastructure.jpg" alt="Infrastructure Development">
             <h3>Infrastructure Development</h3>
         </a>
 
         <a href="security.html" class="card">
-            <img src="nasir-idris.jpg" alt="Governor Nasir Idris">
+            <img src="security.jpg" alt="Security and Stability">
             <h3>Security & Stability</h3>
         </a>
 
         <a href="agriculture.html" class="card">
-            <img src="nasir-idris.jpg" alt="Governor Nasir Idris">
+            <img src="agriculture.jpg" alt="Agriculture & Rural Development">
             <h3>Agriculture & Rural Development</h3>
         </a>
 
@@ -198,11 +119,7 @@ footer{
 <!-- CTA -->
 <section class="cta">
     <h2>Leadership Focused on Progress</h2>
-    <p>
-        Governor Nasir Idris remains committed to delivering
-        sustainable development and improved quality of life
-        for the people of Kebbi State.
-    </p>
+    <p>Governor Nasir Idris remains committed to delivering sustainable development and improving quality of life for the people of Kebbi State.</p>
     <a href="history.html">Explore Leadership History</a>
 </section>
 
