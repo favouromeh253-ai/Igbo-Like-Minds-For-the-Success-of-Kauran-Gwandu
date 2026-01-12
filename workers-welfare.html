@@ -6,10 +6,28 @@
 
     <style>
     .hero{
+    .hero{
     background:
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("workers-welfare.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #000;
     color: white;
-    padding: 100px 20px;
+}
+
+@media (min-width: 768px){
+    .hero{
+        background-size: cover;
+        background-position: 15% center;
+    }
+}
+
+@media (max-width: 767px){
+    .hero{
+        background-size: contain;
+    }
+}
     text-align: center;
 }
 
